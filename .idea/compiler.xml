@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis" />
+        <module name="mygit" />
         <module name="myhadoop" />
         <module name="myjava" />
         <module name="myspider" />
@@ -19,6 +20,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mybatis" target="1.5" />
+      <module name="mygit" target="1.5" />
       <module name="myhadoop" target="1.5" />
       <module name="myjava" target="1.5" />
       <module name="myspider" target="1.5" />
