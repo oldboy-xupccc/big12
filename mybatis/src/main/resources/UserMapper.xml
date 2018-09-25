@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 定义名字空间 -->
+<mapper namespace="users">
+    <!-- 定义insert语句 ,获得生成的id字段-->
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        insert into users(name,age) values(#{name},#{age})
+    </insert>
+    
+    <update id="update">
+        update users set name = #{name} , age = #{age} where id = #{id}
+    </update>
+
+    <delete id="delete">
+        delete from users where id = #{id}
+    </delete>
+    
+    <select id="selectById" resultMap="rmUser">
+      select
+        u.id uid , u.name uname ,u.age uage , o.id oid , o.orderno oorderno,o.price oprice,  i.id iid , i.iname iiname
+      from
+        users u
+        left outer join orders o on o.cid = u.id
+        left outer join orderitems i on i.oid = o.id
+      where u.id = #{id}
+    </select>
+    <select id="selectAll" resultType="_User">
+      select * from users
+    </select>
+    <!-- 用户映射 -->
+    <resultMap id="rmUser" type="_User">
+        <id column="uid" property="id" />
+        <result column="uname" property="name" />
+        <result column="uage" property="age"/>
+        <collection property="orders" ofType="_Order" column="uid">
+            <id column="oid" property="id" />
+            <result column="oorderno" property="orderNo" />
+            <result column="oprice" property="price"/>
+            <collection property="items" ofType="_Item" column="oid">
+                <id column="iid" property="id"/>
+                <result column="iiname" property="iname" />
+            </collection>
+        </collection>
+    </resultMap>
+</mapper>

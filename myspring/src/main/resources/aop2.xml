@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+                        http://www.springframework.org/schema/aop
+                        http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+                        http://www.springframework.org/schema/context
+                        http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+    <!-- 观众 -->
+    <bean id="audience" class="com.oldboy.spring.aop2.Audience" />
+
+    <!-- 歌手 -->
+    <bean id="singer" class="com.oldboy.spring.aop2.Singer" />
+
+    <aop:config>
+        <aop:aspect id="audienceAspect" ref="audience">
+            <!--  定义切入点-->
+            <!-- expression="execution(* com.oldboy.spring.aop2.*Service.*(..))" -->
+            <!-- expression="execution(* *..*Service.*(..))" -->
+            <aop:pointcut id="audiencePointCut" expression="execution(* com.oldboy.spring.aop2.Actor.show())" />
+
+            <!-- 定义通知 -->
+            <aop:before method="sitdown" pointcut-ref="audiencePointCut" />
+            <aop:before method="turnoffCellphone" pointcut-ref="audiencePointCut" />
+            <aop:after-returning method="applaud" pointcut-ref="audiencePointCut" />
+            <aop:after-throwing method="payOff" pointcut-ref="audiencePointCut" />
+            <aop:after method="goHome" pointcut-ref="audiencePointCut"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

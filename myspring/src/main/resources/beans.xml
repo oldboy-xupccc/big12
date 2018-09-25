@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--  -->
+    <bean id="welcomeService" class="com.oldboy.spring.service.WelcomeServiceImpl" scope="prototype">
+        <constructor-arg type="int" value="1" index="1" />
+        <constructor-arg type="java.lang.Integer" value="12" index="0"/>
+        <property name="name" value="tomas" />
+        <!-- 配置依赖关系 -->
+        <property name="bs" ref="byeService" />
+    </bean>
+    <!--  -->
+    <bean id="byeService" class="com.oldboy.spring.service.ByeServiceImpl">
+        <property name="bye" value="byebye!!" />
+    </bean>
+</beans>

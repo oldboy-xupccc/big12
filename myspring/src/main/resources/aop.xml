@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/context
+                            http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+    <!-- 前置通知 -->
+    <bean id="beforeAdvice" class="com.oldboy.spring.aop.service.MyMethodBeforeAdvice" />
+    <bean id="afterAdvice" class="com.oldboy.spring.aop.service.MyAfterReturningAdvice" />
+    <bean id="aroundAdvice" class="com.oldboy.spring.aop.service.MyMethodInterceptor" />
+    <bean id="throwsAdvice" class="com.oldboy.spring.aop.service.MyThrowsAdvice" />
+
+    <!-- 目标对象 -->
+    <bean id="welcomeServiceTarget" class="com.oldboy.spring.aop.service.WelcomeServiceImpl" />
+
+    <!-- 代理对象-->
+    <bean id="welcomeService" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <!-- 代理接口集合 -->
+        <property name="proxyInterfaces">
+            <list>
+                <value>com.oldboy.spring.aop.service.WelcomeService</value>
+            </list>
+        </property>
+        <!-- 拦截器名称集合 -->
+        <property name="interceptorNames">
+            <list>
+                <value>beforeAdvice</value>
+                <value>afterAdvice</value>
+                <value>aroundAdvice</value>
+                <value>throwsAdvice</value>
+            </list>
+        </property>
+        <!-- 指定目标对象 -->
+        <property name="target" ref="welcomeServiceTarget" />
+    </bean>
+</beans>

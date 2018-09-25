@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 定义名字空间 -->
+<mapper namespace="users">
+    <!-- 定义insert语句 ,获得生成的id字段-->
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        insert into users(name,age) values(#{name},#{age})
+    </insert>
+    
+    <update id="update">
+        update users set name = #{name} , age = #{age} where id = #{id}
+    </update>
+
+    <delete id="delete">
+        delete from users where id = #{id}
+    </delete>
+
+    <select id="findById" resultType="_User">
+        select * from users where id = #{id}
+    </select>
+    <select id="findAll" resultType="_User">
+        select * from users
+    </select>
+    <select id="selectCount" resultType="int">
+        select count(*) from users
+    </select>
+    <select id="selectPage" resultType="_User">
+        select * from users limit #{offset} , #{limit}
+    </select>
+</mapper>

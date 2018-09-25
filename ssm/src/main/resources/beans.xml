@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                    http://www.springframework.org/schema/beans/spring-beans.xsd
+                    http://www.springframework.org/schema/context
+                    http://www.springframework.org/schema/context/spring-context-4.3.xsd
+                    http://www.springframework.org/schema/tx
+                    http://www.springframework.org/schema/tx/spring-tx-4.3.xsd
+                    http://www.springframework.org/schema/aop
+                    http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+    <!-- 扫描特定包 -->
+    <context:component-scan base-package="com.oldboy.ssm.dao,com.oldboy.ssm.service" />
+    <!-- 事务通知 -->
+    <tx:advice id="txAdvice" transaction-manager="txManager">
+        <tx:attributes>
+            <tx:method name="insert*" isolation="DEFAULT" propagation="REQUIRED" />
+            <tx:method name="update*" isolation="DEFAULT" propagation="REQUIRED" />
+            <tx:method name="delete*" isolation="DEFAULT" propagation="REQUIRED" />
+            <tx:method name="select*" isolation="DEFAULT" propagation="REQUIRED" read-only="true"/>
+            <tx:method name="*" isolation="DEFAULT" propagation="REQUIRED" />
+        </tx:attributes>
+    </tx:advice>
+
+    <aop:config>
+        <aop:advisor advice-ref="txAdvice" pointcut="execution(* *..*Service.*(..))" />
+    </aop:config>
+
+    <!-- 数据源 -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.jdbc.Driver" />
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/big12" />
+        <property name="user" value="root" />
+        <property name="password" value="root" />
+
+        <property name="maxPoolSize"  value="10"/>
+        <property name="minPoolSize"  value="2"/>
+        <property name="initialPoolSize"  value="3"/>
+        <property name="acquireIncrement"  value="2"/>
+    </bean>
+
+    <!-- spring与mybatis整合的关键 -->
+    <bean id="sessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:mybatis-config.xml" />
+    </bean>
+
+    <!-- 事务管理器 -->
+    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+</beans>

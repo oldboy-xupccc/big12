@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 定义名字空间 -->
+<mapper namespace="teas">
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        insert into teas(tname) values(#{tname})
+    </insert>
+    
+    <insert id="insertLink">
+      <foreach collection="stus" item="s">
+          insert into links(tid,sid) values(#{id} , #{s.id}) ;
+      </foreach>
+    </insert>
+
+    <select id="selectOne" resultMap="rmTeacher">
+        select
+          t.id tid , t.tname ttname , s.id sid , s.sname ssname
+        from
+          teas t
+          left outer join links l on l.tid = t.id
+          left outer join stus s on l.sid = s.id
+        WHERE
+          t.id = #{id}
+    </select>
+    <resultMap id="rmTeacher" type="_Teacher">
+        <id column="tid" property="id"/>
+        <result column="ttname"  property="tname"/>
+        <collection property="stus" ofType="_Student" column="tid">
+            <id column="sid" property="id" />
+            <result column="ssname" property="sname"/>
+        </collection>
+    </resultMap>
+</mapper>

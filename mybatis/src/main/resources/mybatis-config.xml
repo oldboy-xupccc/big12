@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties>
+        <property name="driver" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/big12?allowMultiQueries=true"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+    </properties>
+    <typeAliases>
+        <typeAlias type="com.oldboy.mybatis.domain.User" alias="_User"/>
+        <typeAlias type="com.oldboy.mybatis.domain.Order" alias="_Order"/>
+        <typeAlias type="com.oldboy.mybatis.domain.Item" alias="_Item"/>
+        <typeAlias type="com.oldboy.mybatis.domain.Area" alias="_Area"/>
+        <typeAlias type="com.oldboy.mybatis.domain.one2one.pk.Husband" alias="_Husband"/>
+        <typeAlias type="com.oldboy.mybatis.domain.one2one.pk.Wife" alias="_Wife"/>
+        <typeAlias type="com.oldboy.mybatis.domain.one2one.fk.HusbandFK" alias="_HusbandFK"/>
+        <typeAlias type="com.oldboy.mybatis.domain.one2one.fk.WifeFK" alias="_WifeFK"/>
+        <typeAlias type="com.oldboy.mybatis.domain.many2many.Teacher" alias="_Teacher"/>
+        <typeAlias type="com.oldboy.mybatis.domain.many2many.Student" alias="_Student"/>
+    </typeAliases>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="UserMapper.xml"/>
+        <mapper resource="OrderMapper.xml"/>
+        <mapper resource="ItemMapper.xml"/>
+        <mapper resource="AreaMapper.xml"/>
+        <mapper resource="HusbandMapper.xml"/>
+        <mapper resource="WifeMapper.xml"/>
+        <mapper resource="HusbandFKMapper.xml"/>
+        <mapper resource="WifeFKMapper.xml"/>
+        <mapper resource="TeacherMapper.xml"/>
+        <mapper resource="StudentMapper.xml"/>
+        <mapper resource="SelectMapper.xml"/>
+    </mappers>
+</configuration>
