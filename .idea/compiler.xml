@@ -9,6 +9,7 @@
         <module name="mybatis" />
         <module name="mygit" />
         <module name="myhadoop" />
+        <module name="myhbase" />
         <module name="myhive" />
         <module name="myjava" />
         <module name="myspider" />
@@ -23,6 +24,7 @@
       <module name="mybatis" target="1.5" />
       <module name="mygit" target="1.5" />
       <module name="myhadoop" target="1.5" />
+      <module name="myhbase" target="1.5" />
       <module name="myhive" target="1.5" />
       <module name="myjava" target="1.5" />
       <module name="myspider" target="1.5" />

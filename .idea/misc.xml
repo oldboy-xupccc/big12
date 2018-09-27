@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/myspider/pom.xml" />
         <option value="$PROJECT_DIR$/mygit/pom.xml" />
         <option value="$PROJECT_DIR$/myhive/pom.xml" />
+        <option value="$PROJECT_DIR$/myhbase/pom.xml" />
       </list>
     </option>
   </component>
