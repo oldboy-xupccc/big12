@@ -12,6 +12,7 @@
         <module name="myhbase" />
         <module name="myhive" />
         <module name="myjava" />
+        <module name="myscala" />
         <module name="myspider" />
         <module name="myspring" />
         <module name="scrapy-cluster" />
@@ -27,6 +28,7 @@
       <module name="myhbase" target="1.5" />
       <module name="myhive" target="1.5" />
       <module name="myjava" target="1.5" />
+      <module name="myscala" target="1.5" />
       <module name="myspider" target="1.5" />
       <module name="myspring" target="1.5" />
       <module name="scrapy-cluster" target="1.5" />
