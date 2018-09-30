@@ -7,43 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bd5275a-823d-4f2f-95dc-bf532f0e7331" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myhbase/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/myscala.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/App.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/Beau.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/BigDog.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/Boss.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/Cat.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/Dog.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/Fan.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/FileApp.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/FileCopy.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/Fraction.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/MoreMoneyPet.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/Rich.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/Richer.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/Shell.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/URL.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/USB.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/USB2.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/WRB.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/White.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/WomenStar.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/MaxTempAgg.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/MaxTempAggPro.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myscala/src/main/java/MaxTempAggPro2.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myhbase/myhbase.iml" afterPath="$PROJECT_DIR$/myhbase/myhbase.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myhbase/pom.xml" afterPath="$PROJECT_DIR$/myhbase/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myhbase/src/test/java/com/oldboy/hbase/test/TestCRUD.java" afterPath="$PROJECT_DIR$/myhbase/src/test/java/com/oldboy/hbase/test/TestCRUD.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myweb/index.html" afterPath="$PROJECT_DIR$/myweb/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_annotations_1_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_annotations_1_2_6.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_client_1_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_client_1_2_6.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_1_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_1_2_6.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_protocol_1_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_protocol_1_2_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myscala/src/main/java/Fraction.scala" afterPath="$PROJECT_DIR$/myscala/src/main/java/Fraction.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/myjava/target/" />
@@ -95,11 +63,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Fraction.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myscala/src/main/java/Fraction.scala">
+      <file leaf-file-name="MaxTempAggPro2.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myscala/src/main/java/MaxTempAggPro2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+            <state relative-caret-position="256">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeqLike.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/SeqLike.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="600" column="45" lean-forward="false" selection-start-line="600" selection-start-column="45" selection-end-line="600" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -146,9 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/myhadoop/src/main/java/com/oldboy/hadoop/mr/maxtemp2/MaxtempReducer2.java" />
-        <option value="$PROJECT_DIR$/myhadoop/src/main/java/com/oldboy/hadoop/mr/maxtemp2/MaxtempMapper2.java" />
-        <option value="$PROJECT_DIR$/myhadoop/src/main/java/com/oldboy/hadoop/mr/maxtemp2/App2.java" />
         <option value="$PROJECT_DIR$/myhadoop/src/main/java/com/oldboy/hadoop/mr/fulljoin/map/JoinMapper.java" />
         <option value="$PROJECT_DIR$/myhadoop/src/main/java/com/oldboy/hadoop/mr/fulljoin/map/App.java" />
         <option value="$PROJECT_DIR$/myhadoop/src/main/java/com/oldboy/hadoop/mr/fulljoin/reduce/ComboKey.java" />
@@ -197,6 +172,9 @@
         <option value="$PROJECT_DIR$/myscala/src/main/java/MoreMoneyPet.scala" />
         <option value="$PROJECT_DIR$/myscala/src/main/java/BigDog.scala" />
         <option value="$PROJECT_DIR$/myscala/src/main/java/Fraction.scala" />
+        <option value="$PROJECT_DIR$/myscala/src/main/java/MaxTempAgg.scala" />
+        <option value="$PROJECT_DIR$/myscala/src/main/java/MaxTempAggPro.scala" />
+        <option value="$PROJECT_DIR$/myscala/src/main/java/MaxTempAggPro2.scala" />
       </list>
     </option>
   </component>
@@ -252,6 +230,86 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="big12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="big12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myscala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="big12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="big12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myscala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="big12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="big12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myscala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="big12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="big12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myscala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -267,17 +325,16 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15246637" />
     <property name="project.structure.side.proportion" value="0.34386852" />
-    <property name="SearchEverywhereHistoryKey" value="Nil&#9;null&#9;null&#10;CombineTextin&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.3/hadoop-mapreduce-client-core-2.7.3-sources.jar!/org/apache/hadoop/mapred/lib/CombineTextInputFormat.java&#10;CombineFile&#9;PSI&#9;JAVA://org.apache.hadoop.mapred.lib.CombineFileInputFormat&#10;FileINputFor&#9;PSI&#9;JAVA://org.apache.hadoop.mapreduce.lib.input.FileInputFormat&#10;spill&#9;PSI&#9;JAVA://org.apache.hadoop.mapred.MapTask.MapOutputBuffer.SpillThread&#10;MapRunnable&#9;PSI&#9;JAVA://org.apache.hadoop.mapred.LocalJobRunner.Job.MapTaskRunnable&#10;JoinRedu&#9;FILE&#9;file://D:/big12/myhadoop/src/main/java/com/oldboy/hadoop/mr/fulljoin/reduce/JoinReducer2.java&#10;CIDGroup&#9;FILE&#9;file://D:/big12/myhadoop/src/main/java/com/oldboy/hadoop/mr/fulljoin/reduce/CIDGroupComparator.java&#10;Shuffle&#9;PSI&#9;JAVA://org.apache.hadoop.mapreduce.task.reduce.Shuffle&#10;Local&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.3/hadoop-mapreduce-client-common-2.7.3-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java&#10;Mapper&#9;FILE&#9;file://D:/big12/myhadoop/src/main/java/com/oldboy/hadoop/mr/fulljoin/reduce/JoinMapper2.java&#10;FileInputFormat&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.3/hadoop-mapreduce-client-core-2.7.3-sources.jar!/org/apache/hadoop/mapreduce/lib/input/FileInputFormat.java&#10;TextInpuFormat&#9;PSI&#9;JAVA://org.apache.hadoop.mapreduce.lib.input.TextInputFormat&#10;TextInputFormat&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.3/hadoop-mapreduce-client-core-2.7.3-sources.jar!/org/apache/hadoop/mapred/TextInputFormat.java&#10;HdfsDataOutput&#9;PSI&#9;JAVA://org.apache.hadoop.hdfs.client.HdfsDataOutputStream&#10;DFSOutput&#9;PSI&#9;JAVA://org.apache.hadoop.hdfs.DFSOutputStream&#10;DispatcherServlet&#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet&#10;DataSourceTran&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/spring-jdbc/4.3.5.RELEASE/spring-jdbc-4.3.5.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DataSourceTransactionManager.java&#10;SqlSessionFactoryBean&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java&#10;ThrowsA&#9;PSI&#9;JAVA://org.springframework.aop.ThrowsAdvice&#10;Proxy&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/lang/reflect/Proxy.java&#10;Jiafei&#9;FILE&#9;file://D:/big12/myjava/src/main/java/com/oldboy/java/domain/JiafeiCat.java&#10;Person&#9;FILE&#9;file://D:/big12/myjava/src/main/java/com/oldboy/java/domain/Person.java&#10;BasicService&#9;PSI&#9;JAVA://javax.jnlp.BasicService&#10;sun.misc.Launcher&#9;PSI&#9;JAVA://sun.misc.Launcher&#10;Launcher&#9;PSI&#9;JAVA://sun.misc.Launcher&#10;AppClassLoader&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/jre/lib/plugin.jar!/sun/plugin2/applet/Applet2ClassLoaderCache.class&#10;ClassLoader&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;DataSource&#9;PSI&#9;JAVA://javax.sql.DataSource&#10;SelectionKey&#9;PSI&#9;JAVA://java.nio.channels.SelectionKey&#10;ThreadPoolE&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/util/concurrent/ThreadPoolExecutor.java&#10;ThreadPoolEx&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/util/concurrent/ThreadPoolExecutor.java&#10;Thread&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/lang/Thread.java&#10;SocketChannel&#9;PSI&#9;JAVA://java.nio.channels.SocketChannel&#10;ServerSOcketChan&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/nio/channels/ServerSocketChannel.java&#10;Obser&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/util/Observable.java&#10;FIlterIN&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/io/FilterInputStream.java&#10;Object&#9;PSI&#9;JAVA://java.lang.Object&#10;Channel&#9;PSI&#9;JAVA://java.nio.channels.Channel&#10;Buffer&#9;PSI&#9;JAVA://java.nio.Buffer&#10;BufferedINputS&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/io/BufferedInputStream.java&#10;TreeMap&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/util/TreeMap.java&#10;HashMap&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/util/HashMap.java&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;LinkedHash&#9;PSI&#9;JAVA://java.util.LinkedHashSet&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;Arraylist&#9;PSI&#9;JAVA://java.util.ArrayList&#10;ZipInput&#9;PSI&#9;JAVA://java.util.zip.ZipInputStream&#10;BufferedInputStream&#9;PSI&#9;JAVA://java.io.BufferedInputStream" />
+    <property name="SearchEverywhereHistoryKey" value="Option&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/Option.scala&#10;Nil&#9;null&#9;null&#10;CombineTextin&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.3/hadoop-mapreduce-client-core-2.7.3-sources.jar!/org/apache/hadoop/mapred/lib/CombineTextInputFormat.java&#10;CombineFile&#9;PSI&#9;JAVA://org.apache.hadoop.mapred.lib.CombineFileInputFormat&#10;FileINputFor&#9;PSI&#9;JAVA://org.apache.hadoop.mapreduce.lib.input.FileInputFormat&#10;spill&#9;PSI&#9;JAVA://org.apache.hadoop.mapred.MapTask.MapOutputBuffer.SpillThread&#10;MapRunnable&#9;PSI&#9;JAVA://org.apache.hadoop.mapred.LocalJobRunner.Job.MapTaskRunnable&#10;JoinRedu&#9;FILE&#9;file://D:/big12/myhadoop/src/main/java/com/oldboy/hadoop/mr/fulljoin/reduce/JoinReducer2.java&#10;CIDGroup&#9;FILE&#9;file://D:/big12/myhadoop/src/main/java/com/oldboy/hadoop/mr/fulljoin/reduce/CIDGroupComparator.java&#10;Shuffle&#9;PSI&#9;JAVA://org.apache.hadoop.mapreduce.task.reduce.Shuffle&#10;Local&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.3/hadoop-mapreduce-client-common-2.7.3-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java&#10;Mapper&#9;FILE&#9;file://D:/big12/myhadoop/src/main/java/com/oldboy/hadoop/mr/fulljoin/reduce/JoinMapper2.java&#10;FileInputFormat&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.3/hadoop-mapreduce-client-core-2.7.3-sources.jar!/org/apache/hadoop/mapreduce/lib/input/FileInputFormat.java&#10;TextInpuFormat&#9;PSI&#9;JAVA://org.apache.hadoop.mapreduce.lib.input.TextInputFormat&#10;TextInputFormat&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.3/hadoop-mapreduce-client-core-2.7.3-sources.jar!/org/apache/hadoop/mapred/TextInputFormat.java&#10;HdfsDataOutput&#9;PSI&#9;JAVA://org.apache.hadoop.hdfs.client.HdfsDataOutputStream&#10;DFSOutput&#9;PSI&#9;JAVA://org.apache.hadoop.hdfs.DFSOutputStream&#10;DispatcherServlet&#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet&#10;DataSourceTran&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/spring-jdbc/4.3.5.RELEASE/spring-jdbc-4.3.5.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DataSourceTransactionManager.java&#10;SqlSessionFactoryBean&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java&#10;ThrowsA&#9;PSI&#9;JAVA://org.springframework.aop.ThrowsAdvice&#10;Proxy&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/lang/reflect/Proxy.java&#10;Jiafei&#9;FILE&#9;file://D:/big12/myjava/src/main/java/com/oldboy/java/domain/JiafeiCat.java&#10;Person&#9;FILE&#9;file://D:/big12/myjava/src/main/java/com/oldboy/java/domain/Person.java&#10;BasicService&#9;PSI&#9;JAVA://javax.jnlp.BasicService&#10;sun.misc.Launcher&#9;PSI&#9;JAVA://sun.misc.Launcher&#10;Launcher&#9;PSI&#9;JAVA://sun.misc.Launcher&#10;AppClassLoader&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/jre/lib/plugin.jar!/sun/plugin2/applet/Applet2ClassLoaderCache.class&#10;ClassLoader&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;DataSource&#9;PSI&#9;JAVA://javax.sql.DataSource&#10;SelectionKey&#9;PSI&#9;JAVA://java.nio.channels.SelectionKey&#10;ThreadPoolE&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/util/concurrent/ThreadPoolExecutor.java&#10;ThreadPoolEx&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/util/concurrent/ThreadPoolExecutor.java&#10;Thread&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/lang/Thread.java&#10;SocketChannel&#9;PSI&#9;JAVA://java.nio.channels.SocketChannel&#10;ServerSOcketChan&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/nio/channels/ServerSocketChannel.java&#10;Obser&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/util/Observable.java&#10;FIlterIN&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/io/FilterInputStream.java&#10;Object&#9;PSI&#9;JAVA://java.lang.Object&#10;Channel&#9;PSI&#9;JAVA://java.nio.channels.Channel&#10;Buffer&#9;PSI&#9;JAVA://java.nio.Buffer&#10;BufferedINputS&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/io/BufferedInputStream.java&#10;TreeMap&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/util/TreeMap.java&#10;HashMap&#9;FILE&#9;jar://C:/myprograms/jdk1.8.0_65/src.zip!/java/util/HashMap.java&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;LinkedHash&#9;PSI&#9;JAVA://java.util.LinkedHashSet&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;Arraylist&#9;PSI&#9;JAVA://java.util.ArrayList&#10;ZipInput&#9;PSI&#9;JAVA://java.util.zip.ZipInputStream" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="GO_FMT" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.oldboy.hadoop.mr.maxtemp2" />
-      <recent name="com.oldboy.mybatis.domain.many2many" />
-      <recent name="com.oldboy.mybatis.domain.one2one.fk" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\big12\ssm\web\jsps" />
+      <recent name="D:\big12\springmvc\web\jsps" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\big12\myhbase\src\main\resources" />
@@ -287,63 +344,19 @@
       <recent name="D:\big12\ssm\src\main\java\com\oldboy\ssm\service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="com.oldboy.hadoop.mr.combine" />
       <recent name="com.oldboy.ssm.web.controller" />
       <recent name="com.oldboy.ssm.dao" />
       <recent name="com.oldboy.ssm.domain" />
-      <recent name="com.oldboy.spring.aop3" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\big12\ssm\web\jsps" />
-      <recent name="D:\big12\springmvc\web\jsps" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.oldboy.hadoop.mr.maxtemp2" />
+      <recent name="com.oldboy.mybatis.domain.many2many" />
+      <recent name="com.oldboy.mybatis.domain.one2one.fk" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FractionApp">
-    <configuration default="false" name="URL" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="URL" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="myscala" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Shell" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Shell" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="myscala" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="BigDog" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="BigDog" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="myscala" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.MaxTempAggPro2">
     <configuration default="false" name="BigDogApp" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="BigDogApp" />
@@ -362,6 +375,51 @@
     <configuration default="false" name="FractionApp" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="FractionApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="myscala" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MaxTempAgg" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="MaxTempAgg" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="myscala" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MaxTempAggPro" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="MaxTempAggPro" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="myscala" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MaxTempAggPro2" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="MaxTempAggPro2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1088,19 +1146,19 @@
       <item index="1" class="java.lang.String" itemvalue="Remote.s101_HelloWorld" />
       <item index="2" class="java.lang.String" itemvalue="Remote.S101_MR" />
       <item index="3" class="java.lang.String" itemvalue="Tomcat Server.ssm" />
-      <item index="4" class="java.lang.String" itemvalue="Application.URL" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Shell" />
-      <item index="6" class="java.lang.String" itemvalue="Application.BigDog" />
-      <item index="7" class="java.lang.String" itemvalue="Application.BigDogApp" />
-      <item index="8" class="java.lang.String" itemvalue="Application.FractionApp" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BigDogApp" />
+      <item index="5" class="java.lang.String" itemvalue="Application.FractionApp" />
+      <item index="6" class="java.lang.String" itemvalue="Application.MaxTempAgg" />
+      <item index="7" class="java.lang.String" itemvalue="Application.MaxTempAggPro" />
+      <item index="8" class="java.lang.String" itemvalue="Application.MaxTempAggPro2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FractionApp" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BigDogApp" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BigDog" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Shell" />
-        <item index="4" class="java.lang.String" itemvalue="Application.URL" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MaxTempAggPro2" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MaxTempAggPro" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MaxTempAgg" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FractionApp" />
+        <item index="4" class="java.lang.String" itemvalue="Application.BigDogApp" />
       </list>
     </recent_temporary>
   </component>
@@ -1153,7 +1211,7 @@
       <workItem from="1538003289860" duration="12080000" />
       <workItem from="1538101440876" duration="6265000" />
       <workItem from="1538145421659" duration="1237000" />
-      <workItem from="1538182891094" duration="15985000" />
+      <workItem from="1538182891094" duration="23286000" />
     </task>
     <task id="LOCAL-00001" summary="ssss">
       <created>1537173643984</created>
@@ -1204,7 +1262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538012147772</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ssss">
+      <created>1538211656141</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1538211656141</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1240,7 +1305,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="379144000" />
+    <option name="totallyTimeSpent" value="386445000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1253,7 +1318,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="738" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1278,10 +1343,10 @@
       <window_info id="TunnelliJ" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.01861252" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23688664" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56905156" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2637195" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3262195" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1388,7 +1453,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="187" />
+      <option name="time" value="188" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Remote">
@@ -1409,35 +1474,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.3/hadoop-mapreduce-client-core-2.7.3-sources.jar!/org/apache/hadoop/mapreduce/lib/input/FileInputFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="66" column="45" lean-forward="true" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-common/1.2.4/hbase-common-1.2.4.jar!/org/apache/hadoop/hbase/HBaseConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-common/1.2.4/hbase-common-1.2.4-sources.jar!/org/apache/hadoop/hbase/HBaseConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1-sources.jar!/org/apache/hadoop/conf/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="156" column="13" lean-forward="false" selection-start-line="156" selection-start-column="13" selection-end-line="156" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-common/1.2.4/hbase-common-1.2.4-sources.jar!/org/apache/hadoop/hbase/NamespaceDescriptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -1520,6 +1556,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4086">
           <caret line="227" column="43" lean-forward="false" selection-start-line="227" selection-start-column="43" selection-end-line="227" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1789,16 +1826,48 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/Option.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="332" column="46" lean-forward="false" selection-start-line="332" selection-start-column="40" selection-end-line="332" selection-end-column="46" />
+        <state relative-caret-position="106">
+          <caret line="122" column="17" lean-forward="false" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myscala/src/main/java/Fraction.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+        <state relative-caret-position="269">
+          <caret line="60" column="19" lean-forward="false" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myscala/src/main/java/MaxTempAgg.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myscala/src/main/java/MaxTempAggPro.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/SeqLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="600" column="45" lean-forward="false" selection-start-line="600" selection-start-column="45" selection-end-line="600" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myscala/src/main/java/MaxTempAggPro2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding />
         </state>
       </provider>

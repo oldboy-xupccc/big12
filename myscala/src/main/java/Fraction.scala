@@ -56,6 +56,9 @@ object FractionApp{
         val Fraction(a,b) = f1
         println(a)
         println(b)
+
+        val list = List(1,2,3,2,4)
+        list.sortWith((a,b)=> false)
     }
 }
 
