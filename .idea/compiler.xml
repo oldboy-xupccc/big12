@@ -13,12 +13,14 @@
         <module name="myhive" />
         <module name="myjava" />
         <module name="myscala" />
+        <module name="myspark" />
         <module name="myspider" />
         <module name="myspring" />
         <module name="scrapy-cluster" />
         <module name="sm" />
         <module name="springmvc" />
         <module name="ssm" />
+        <module name="ZhihuSpider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,12 +31,14 @@
       <module name="myhive" target="1.5" />
       <module name="myjava" target="1.5" />
       <module name="myscala" target="1.5" />
+      <module name="myspark" target="1.5" />
       <module name="myspider" target="1.5" />
       <module name="myspring" target="1.5" />
       <module name="scrapy-cluster" target="1.5" />
       <module name="sm" target="1.5" />
       <module name="springmvc" target="1.5" />
       <module name="ssm" target="1.5" />
+      <module name="ZhihuSpider" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

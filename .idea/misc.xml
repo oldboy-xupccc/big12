@@ -16,6 +16,8 @@
         <option value="$PROJECT_DIR$/myhive/pom.xml" />
         <option value="$PROJECT_DIR$/myhbase/pom.xml" />
         <option value="$PROJECT_DIR$/myscala/pom.xml" />
+        <option value="$PROJECT_DIR$/ZhihuSpider/pom.xml" />
+        <option value="$PROJECT_DIR$/myspark/pom.xml" />
       </list>
     </option>
   </component>

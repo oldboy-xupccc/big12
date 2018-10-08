@@ -1,7 +1,7 @@
 /**
   * 分数类
   */
-class Fraction(var top :Int , var bot : Int){
+class Fraction2(var top :Int , var bot : Int){
     override def toString: String = {
         top + "/" + bot ;
     }
@@ -16,12 +16,12 @@ class Fraction(var top :Int , var bot : Int){
 /**
   * 伴生对象
   */
-object Fraction{
+object Fraction2{
     /**
       * 字定义apply方法
       */
     def apply(top:Int , bot:Int)= {
-        new Fraction(top , bot)
+        new Fraction2(top , bot)
     }
 
     //
@@ -30,7 +30,7 @@ object Fraction{
     //Nothing : 所有类的子类
     //None Some
     //Option : 可空 ，None:无 Some:有值
-    def unapply(f:Fraction) = if(f.bot == 0) None else Some((f.top,f.bot))
+    def unapply(f:Fraction2) = if(f.bot == 0) None else Some((f.top,f.bot))
 
 }
 
@@ -38,7 +38,7 @@ object FractionApp{
     def main(args: Array[String]): Unit = {
         //val f1 = new Fraction(1, 2)
         //val f1 = Fraction(1,2)
-        val f1 = Fraction.apply(1,2)
+        val f1 = Fraction2.apply(1,2)
 //        println(f1)
 //
 //        import scala.collection.mutable.{Map=>MMap}
@@ -53,7 +53,7 @@ object FractionApp{
         //反向抽取出分子分母
 
         //unapply()反向抽取分数的分子和分母
-        val Fraction(a,b) = f1
+        val Fraction2(a,b) = f1
         println(a)
         println(b)
 
