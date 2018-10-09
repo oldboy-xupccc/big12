@@ -9,7 +9,7 @@ public class Main {
 	private static Logger logger = LoggerFactory.getLogger(Main.class);
 
 	public static void main(String args[]) {
-		//ProxyHostDownloader.getInstance().startCrawl();
-		ZhiHuDownloader.getInstance().startCrawl();
+		ProxyHostDownloader.getInstance().startCrawl();
+		//ZhiHuDownloader.getInstance().startCrawl();
 	}
 }

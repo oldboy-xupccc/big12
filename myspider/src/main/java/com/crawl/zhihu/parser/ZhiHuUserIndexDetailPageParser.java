@@ -20,7 +20,6 @@ public class ZhiHuUserIndexDetailPageParser implements DetailPageParser {
         }
         return zhiHuUserIndexDetailPageParser;
     }
-    @Override
     public ZhihuUserInfo parseDetailPage(Page page) {
         Document doc = Jsoup.parse(page.getHtml());
         return parseUserdetail(doc);

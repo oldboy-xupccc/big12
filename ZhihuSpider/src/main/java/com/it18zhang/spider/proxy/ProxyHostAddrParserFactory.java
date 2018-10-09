@@ -52,6 +52,6 @@ public class ProxyHostAddrParserFactory {
 	 * 提取域名
 	 */
 	private static String getDomainName(String url){
-		return url.split("\\.")[0] ;
+		return url.split("\\.")[1] ;
 	}
 }

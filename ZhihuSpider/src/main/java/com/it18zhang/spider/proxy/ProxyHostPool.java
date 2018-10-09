@@ -33,8 +33,8 @@ public class ProxyHostPool {
 			List<String> list = DictUtil.getValues("proxyserver") ;
 			for(String url : list){
 				String[] arr = url.split("\\.") ;
-				String domainname = arr[0] ;
-				String clz = PropertiesUtil.getString("proxyserver."+domainname+".addrextractor.class");
+				String domainname = arr[1] ;
+				String clz = PropertiesUtil.getString("spider.proxyhost_addr_parser."+domainname);
 				PROXY_HOST_MAP.put(url , Class.forName(clz)) ;
 			}
 		} catch (Exception e) {

@@ -31,8 +31,5 @@ object WordCountScala {
 
         //链式编程
         sc.textFile("file:///d:/mr/word.txt").flatMap(_.split(" ")).map((_,1)).reduceByKey(_+_).collect().foreach(println)
-
-
-
     }
 }

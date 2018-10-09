@@ -23,7 +23,6 @@ public class ZhiHuUserFollowingListPageParser implements ListPageParser {
         }
         return zhiHuUserFollowingListPageParser;
     }
-    @Override
     public List<String> parseListPage(Page page) {
         List<String> list = new ArrayList<String>(20);
         Document doc = Jsoup.parse(page.getHtml());
