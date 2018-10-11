@@ -1,3 +1,5 @@
+import java.lang.management.ManagementFactory
+import java.net.{Inet4Address, Socket}
 import java.util
 
 import com.oldboy.spark.util.TagUtil
@@ -9,13 +11,17 @@ import org.apache.spark.{SparkConf, SparkContext}
   */
 object TaggenScala1 {
     def main(args: Array[String]): Unit = {
+        if(args ==null || args.length == 0){
+            throw new Exception("需要指定文件路径")
+        }
         val conf = new SparkConf()
-        conf.setAppName("Taggen")
-        conf.setMaster("local")
+        conf.setAppName("tagGenScala")
+        //不需要写，通过spark-submit --master ...
+        //conf.setMaster("spark://s101:7077")
         val sc = new SparkContext(conf)
 
         //1. 加载文件
-        val rdd1:RDD[String] = sc.textFile("file:///d:/mr/temptags.txt")
+        val rdd1:RDD[String] = sc.textFile(args(0))
 
         //2. 解析每行的json数据成为集合
         val rdd2:RDD[(String, util.List[String])] = rdd1.map(line=>{
@@ -86,25 +92,21 @@ object TaggenScala1 {
         } ,false)
         rdd11.collect().foreach(println)
     }
+
+    def sendInfo(obj:Object ,m:String , param:String)= {
+        val ip = java.net.InetAddress.getLocalHost.getHostAddress
+        val pid = java.lang.management.ManagementFactory.getRuntimeMXBean.getName.split("@")(0)
+        val tname = Thread.currentThread().getName
+        val classname = obj.getClass.getSimpleName
+        val objHash = obj.hashCode()
+        val info = ip + "/" + pid + "/" + tname + "/" + classname + "@" + objHash + "/" + m + "("+param+")" + "\r\n"
+
+        //发送数据给nc 服务器
+        val sock = new Socket("s101" , 8888)
+        val out = sock.getOutputStream
+        out.write(info.getBytes())
+        out.flush()
+        out.close()
+    }
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

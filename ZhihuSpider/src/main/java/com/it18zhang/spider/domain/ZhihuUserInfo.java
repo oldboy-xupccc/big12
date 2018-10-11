@@ -4,40 +4,23 @@ package com.it18zhang.spider.domain;
  * 知乎用户信息
  */
 public class ZhihuUserInfo {
-	//用户名
-	private String username;
-	//user token
-	private String userToken;
-	//位置
-	private String location;
-	//行业
-	private String business;
-	//性别
-	private String sex;
-	//企业
-	private String employment;
-	//企业职位
-	private String position;
-	//教育
-	private String education;
-	//用户首页url
-	private String url;
-	//答案赞同数
-	private int agrees;
-	//感谢数
-	private int thanks;
-	//提问数
-	private int asks;
-	//回答数
-	private int answers;
-	//文章数
-	private int posts;
-	//关注人数
-	private int followees;
-	//粉丝数量
-	private int followers;
-	// hashId 用户唯一标识
-	private String hashId;
+	private String username;    //用户名
+	private String userToken;   //user token
+	private String location;	//位置
+	private String business;	//行业
+	private String sex;			//性别
+	private String employment;	//企业
+	private String position;	//职位
+	private String education;	//教育
+	private String url;			//url首页
+	private int agrees;			//赞同数
+	private int thanks;			//感谢数
+	private int asks;			//提问数
+	private int answers;		//回答数
+	private int posts;			//文章数
+	private int followees;		//关注数
+	private int followers;		//粉丝数
+	private String hashId;		//唯一标识
 
 	public String getUsername() {
 		return username;

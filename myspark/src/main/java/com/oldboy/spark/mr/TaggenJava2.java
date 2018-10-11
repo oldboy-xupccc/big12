@@ -19,14 +19,17 @@ import java.util.List;
  */
 public class TaggenJava2 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception{
+		if (args == null || args.length == 0) {
+			throw new Exception("需要指定文件路径") ;
+		}
 		SparkConf conf = new SparkConf();
-		conf.setAppName("tempAgg");
-		conf.setMaster("local");
+		conf.setAppName("tagTenJava");
+//		conf.setMaster("local");
 
 		JavaSparkContext sc = new JavaSparkContext(conf);
 		//1. 加载文件
-		JavaRDD<String> rdd1 = sc.textFile("file:///d:/temptags.txt");
+		JavaRDD<String> rdd1 = sc.textFile(args[0]);
 
 		//2. 切割
 		JavaPairRDD<String,List<String>> rdd2 = rdd1.mapToPair(new PairFunction<String, String, List<String>>() {
@@ -124,8 +127,6 @@ public class TaggenJava2 {
 				return - t._2.get(0)._2;
 			}
 		}, true,2) ;
-
-
 
 		List  list = rdd12.collect();
 		for(Object o: list){
