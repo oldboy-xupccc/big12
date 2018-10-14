@@ -5,10 +5,8 @@ import org.apache.spark.{SparkConf, SparkContext}
   */
 object TempAggDemoScala_GroupByKey {
     def main(args: Array[String]): Unit = {
-        val start = System.currentTimeMillis()
         val conf = new SparkConf()
         conf.setAppName("tempAgg")
-        conf.setMaster("local")
         val sc = new SparkContext(conf)
 
         //1. 加载文件
@@ -16,6 +14,7 @@ object TempAggDemoScala_GroupByKey {
 
         //2. 切割成对(1930,54)
         val rdd2 = rdd1.map(line=>{
+            Thread.sleep(args(0).toInt)
             var arr = line.split(" ")
             (arr(0).toInt , arr(1).toInt)
         })
@@ -27,6 +26,6 @@ object TempAggDemoScala_GroupByKey {
         })
 
         val rdd5 = rdd4.sortByKey(true)
-        println(System.currentTimeMillis() - start)
+        rdd5.collect().foreach(println)
     }
 }

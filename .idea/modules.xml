@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ZhihuSpider/ZhihuSpider.iml" filepath="$PROJECT_DIR$/ZhihuSpider/ZhihuSpider.iml" />
       <module fileurl="file://$PROJECT_DIR$/big12.iml" filepath="$PROJECT_DIR$/big12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chuangdata/chuangdata.iml" filepath="$PROJECT_DIR$/chuangdata/chuangdata.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/mygit/mygit.iml" filepath="$PROJECT_DIR$/mygit/mygit.iml" />
       <module fileurl="file://$PROJECT_DIR$/myhadoop/myhadoop.iml" filepath="$PROJECT_DIR$/myhadoop/myhadoop.iml" />

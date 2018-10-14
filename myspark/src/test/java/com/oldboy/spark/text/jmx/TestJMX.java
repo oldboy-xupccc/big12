@@ -23,4 +23,10 @@ public class TestJMX {
 		System.out.println(tname);
 		System.out.println(this);
 	}
+
+	@Test
+	public void testCpus(){
+		int cores = Runtime.getRuntime().availableProcessors() ;
+		System.out.println(cores);
+	}
 }

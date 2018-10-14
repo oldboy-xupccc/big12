@@ -15,7 +15,7 @@ object WordCountScala {
         val info = ip + "/" + pid + "/" + tname + "/" + classname + "@" + objHash + "/" + m + "(" + param + ")" + "\r\n"
 
         //发送数据给nc 服务器
-        val sock = new Socket("s101", 8888)
+        val sock = new java.net.Socket("s101", 8888)
         val out = sock.getOutputStream
         out.write(info.getBytes())
         out.flush()
@@ -26,13 +26,14 @@ object WordCountScala {
         //创建spark配置对象
         val conf = new SparkConf()
         conf.setAppName("WCScala")
-        conf.setMaster("local")
+        conf.setMaster("spark://s101:7077")
 
         //创建上下文
         val sc = new SparkContext(conf)
 
         //加载文档
-        val rdd1 = sc.textFile("file:///d:/mr/word.txt")
+        val rdd1 = sc.textFile("file:///d:/mr/word.txt" ,4 )
+        val x = rdd1.partitions.length
         //压扁
         val rdd2 = rdd1.flatMap(line=>{
             line.split(" ")}

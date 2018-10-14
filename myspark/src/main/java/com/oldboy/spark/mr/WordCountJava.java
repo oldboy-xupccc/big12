@@ -42,7 +42,6 @@ public class WordCountJava {
 				return new Tuple2<String, Integer>(s , 1);
 			}
 		}) ;
-
 		//按照key聚合
 		JavaPairRDD<String, Integer> rdd4 = rdd3.reduceByKey(new Function2<Integer, Integer, Integer>() {
 			public Integer call(Integer v1, Integer v2) throws Exception {

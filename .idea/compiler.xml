@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="chuangdata" />
         <module name="mybatis" />
         <module name="mygit" />
         <module name="myhadoop" />
@@ -24,6 +25,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chuangdata" target="1.6" />
       <module name="mybatis" target="1.5" />
       <module name="mygit" target="1.5" />
       <module name="myhadoop" target="1.5" />
