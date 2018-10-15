@@ -26,7 +26,7 @@ object WordCountScala {
         //创建spark配置对象
         val conf = new SparkConf()
         conf.setAppName("WCScala")
-        conf.setMaster("spark://s101:7077")
+        conf.setMaster("spark://s101:S7077")
 
         //创建上下文
         val sc = new SparkContext(conf)
