@@ -17,6 +17,7 @@ object SparkSQLDemo {
 //        }
         val df = spark.sql("select * from orders")
         val rdd = df.toJavaRDD
+
         val it= rdd.collect().iterator()
         while(it.hasNext){
             println(it.next())

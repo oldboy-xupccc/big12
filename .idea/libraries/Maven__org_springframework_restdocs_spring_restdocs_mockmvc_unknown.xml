@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.restdocs:spring-restdocs-mockmvc:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/restdocs/spring-restdocs-mockmvc/unknown/spring-restdocs-mockmvc-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/restdocs/spring-restdocs-mockmvc/unknown/spring-restdocs-mockmvc-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/restdocs/spring-restdocs-mockmvc/unknown/spring-restdocs-mockmvc-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

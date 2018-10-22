@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: jp.sourceforge:QRCode:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/jp/sourceforge/QRCode/unknown/QRCode-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/jp/sourceforge/QRCode/unknown/QRCode-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/jp/sourceforge/QRCode/unknown/QRCode-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

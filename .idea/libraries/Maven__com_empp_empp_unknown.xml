@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.empp:empp:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/empp/empp/unknown/empp-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/empp/empp/unknown/empp-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/empp/empp/unknown/empp-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

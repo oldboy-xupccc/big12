@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/myspider/myspider.iml" filepath="$PROJECT_DIR$/myspider/myspider.iml" />
       <module fileurl="file://$PROJECT_DIR$/myspring/myspring.iml" filepath="$PROJECT_DIR$/myspring/myspring.iml" />
       <module fileurl="file://$PROJECT_DIR$/myweb/myweb.iml" filepath="$PROJECT_DIR$/myweb/myweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiya_middleware/qiya_middleware.iml" filepath="$PROJECT_DIR$/qiya_middleware/qiya_middleware.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrapy-cluster/scrapy-cluster.iml" filepath="$PROJECT_DIR$/scrapy-cluster/scrapy-cluster.iml" />
       <module fileurl="file://$PROJECT_DIR$/sm/sm.iml" filepath="$PROJECT_DIR$/sm/sm.iml" />
       <module fileurl="file://$PROJECT_DIR$/springmvc/springmvc.iml" filepath="$PROJECT_DIR$/springmvc/springmvc.iml" />

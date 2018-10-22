@@ -143,4 +143,14 @@ public class TestTreeMap {
 		}
 	}
 
+
+	@Test
+	public void testSeed(){
+		System.out.println(new Random(1000).nextFloat());
+		System.out.println(new Random(1000).nextFloat());
+		System.out.println(new Random(1000).nextFloat());
+		System.out.println(new Random(1000).nextFloat());
+	}
+
+
 }

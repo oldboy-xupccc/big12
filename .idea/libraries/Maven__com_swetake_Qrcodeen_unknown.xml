@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.swetake:Qrcodeen:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/swetake/Qrcodeen/unknown/Qrcodeen-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/swetake/Qrcodeen/unknown/Qrcodeen-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/swetake/Qrcodeen/unknown/Qrcodeen-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

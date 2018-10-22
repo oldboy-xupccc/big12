@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: EncMachine:EncMachine:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/EncMachine/EncMachine/unknown/EncMachine-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/EncMachine/EncMachine/unknown/EncMachine-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/EncMachine/EncMachine/unknown/EncMachine-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
